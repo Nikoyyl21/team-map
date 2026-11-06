@@ -6,10 +6,10 @@
 
 | 分组 | 内容 |
 | :--- | :--- |
-| 多模态与视频生成 | 公开技术报告、代表工作、方法演进 |
+| 多模态 / 视频与图像生成 | 公开技术报告、代表工作、方法演进 |
 | 后训练与对齐 | 公开论文、方法族谱 |
 | 文本大模型 | 架构与训练方法的公开资料 |
-| 语音与 Infra | 公开系统与技术报告 |
+| Infra 与推理系统 | 公开系统与技术报告 |
 
 ## 更新规则
 
@@ -22,10 +22,10 @@
 
 | 分组 | 方法族 | 开放问题 |
 | :--- | :--- | :--- |
-| 多模态与视频生成 | DiT、flow matching、时空 VAE、基于 GRPO 的奖励优化 | 可控性与运动物理合理性缺可靠自动评测代理 |
+| 多模态 / 视频与图像生成 | 预训练数据配比、DiT / flow matching、时空 VAE、reference-based 与编辑生成、基于 GRPO 的奖励优化 | 可控性与运动物理合理性缺可靠自动评测代理 |
 | 后训练与对齐 | DPO / PPO / GRPO、RLVR、PRM、dLLM 上的 RL 对齐 | reward hacking 与 KL 约束的代价、泛化边界 |
 | 文本大模型 | MoE routing、mid-training 退火、RoPE 外推、KV cache 优化 | 数据墙、长上下文的边际收益 |
-| 语音与 Infra | 离散 codec token、TP / PP / EP、prefill-decode 分离 | MFU 上限与 SLO 下的单位 token 成本 |
+| Infra 与推理系统 | TP / PP / EP、MFU、prefill-decode 分离、KV cache 与量化 | MFU 上限与 SLO 下的单位 token 成本 |
 
 ## 说明
 
